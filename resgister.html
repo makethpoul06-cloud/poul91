@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Page</title>
+</head>
+<body id="registerpage">
+    <a href="home.html">back to home</a>
+    <h3>Register Page</h3>
+    <form action="submit_registration.php" method="POST">
+        <label for="firstname">First Name:</label><br>
+        <input type="text" id="firstname" placeholder="First Name" name="firstname" required><br><br>
+        <label for="lastname">Last Name:</label><br>
+        <input type="text" id="lastname" placeholder="Last Name" name="lastname" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="Email" name="email" required><br><br>
+        <label for="telephone">Telephone:</label><br>
+        <input type="text" id="telephone" placeholder="Telephone" name="telephone" required><br><br>
+        <label for="whatsApp">WhatsApp Number:</label><br>
+        <input type="text" id="whatsApp" placeholder="+254..." name="whatsApp" required><br><br>
+        <label for="location">Location:</label><br>
+        <input type="text" id="location" placeholder="Enter your location" name="location" required><br><br>
+        <label for="occupation">Occupation:</label><br>
+        <input type="text" id="occupation" placeholder="Enter your occupation" name="occupation" required><br><br>
+        <label for="marital Status">Marital Status:</label><br>
+        <input type="text" id="marital Status" placeholder="Enter your marital status" name="marital Status" required><br><br>
+        <label for="file">Upload File:</label><br>
+        <input type="file" id="file" name="file" required><br><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" placeholder="Password" name="password" required><br><br>
+
+        <label for="age">Age:</label><br>
+        <input type="number" id="age" placeholder="Enter your age" name="age" required><br><br>
+
+        <label for="gender">Gender:</label><br>
+        <select id="gender" name="gender" required>
+            <option value="">Select your gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+
+        <label for="nationality">Nationality:</label><br>
+        <select id="nationality" name="nationality" required>
+            <option value="">Select your nationality</option>
+            <option value="Kenyan">Kenyan</option>
+            <option value="Ugandan">Ugandan</option>
+            <option value="Tanzanian">Tanzanian</option>
+            <option value="Rwandan">Rwandan</option>
+            <option value="Burundian">Burundian</option>
+            <option value="South Sudanese">South Sudanese</option>
+            <option value="Ethiopian">Ethiopian</option>
+            <option value="Somali">Somali</option>
+            <option value="Sudanese">Sudanese</option>
+            <option value="Other">Other</option>
+        </select><br><br>
+        <input type="text" id="languages" name="languages" placeholder="Enter language"><br><br>
+
+        <label for="message">Enter your message:</label><br>
+        <textarea style="width: 100%; height: 100px;" id="message" placeholder="Enter your message" name="message" required></textarea>
+
+        <button id="register-button" type="submit" value="Register">
+            Register
+        </button>
+    </form>
+</body>
+</html>

@@ -1,0 +1,41 @@
+#home {
+    background-color: navy;
+    color: yellowgreen;
+    font-family: Arial, sans-serif;
+}
+#navbar {
+    background-color:yellow;
+    overflow: hidden;
+}
+.hd {
+    color: red;
+    font-size: 36px;
+    text-align: center;
+}
+#aboutme {
+    background-color: lightblue;
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+#experiencepage {
+    background-color: lightgray;
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+#contactpage {
+    background-color: lightyellow;
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+#registerpage {
+    background-color: lightgreen;
+    color: black;
+    font-family: 'Times New Roman', serif;
+}
+#register-button {
+    background-color: green;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
