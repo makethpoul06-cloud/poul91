@@ -8,7 +8,7 @@
     overflow: hidden;
 }
 .hd {
-    color: red;
+    color: white;
     font-size: 36px;
     text-align: center;
 }
@@ -29,13 +29,69 @@
 }
 #registerpage {
     background-color: lightgreen;
+    padding: 500px;
+    margin: 0 auto;
     color: black;
     font-family: 'Times New Roman', serif;
 }
+#registerpage h2 {
+    text-align: center;
+    color: dark green;
+}
+#fm {
+    border: 5px solid black;
+    display: fixed;
+    flex-direction:column ;
+    align-items: center;
+    gap: 500px;
+}
 #register-button {
-    background-color: green;
-    color: black;
+    background-color: navy;
+    padding: 10px 20px;
+    margin: 0 auto;
+    color: white;
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    transition: 0.3s ease;
+}
+#register-button:hover {
+    background-color: red;
+    transform: scale(1.1);
+    margin-top: 5px;
+    transition: translateY(5px);
+}
+#navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+#navlist li  {
+    display: inline;
+    text-decoration: none;
+    color: yellow;
+    font-weight: bold;
+    position: relative;    
+}
+#navlist li a {
+    color: dark green;
+    text-decoration: none;
+    gap: 30px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s, color 0.3s;
+}
+#navlist li a:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: translateY(5px);
+
+}
+#sl {
+    background-color: lightgray;
+    color: black;
+    font-family: 'Times New Roman', serif;
 }
